@@ -1,14 +1,14 @@
-function stringMultiply(string1) {
+function stringDivide(string1) {
     
-    let string2 = '44';
+    let string2 = '3';
 
     const num1 = parseInt(string1);
     const num2 = parseInt(string2);
 
-    const multiply = num1 * num2;
+    const division = parseInt(num1 / num2);
 
-    return multiply;
+    return division;
 }
 
-const result = stringMultiply('100');
+const result = stringDivide('10');
 console.log(result);
