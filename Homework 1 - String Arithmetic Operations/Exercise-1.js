@@ -6,7 +6,7 @@ function stringPlus(_string) {
 
     // make both array to the same size to sum them
     while (string1.length < string2.length) {
-        string1.unshift(0);
+        string1.unshift(0);  //Add zeros to the left
     }
     while (string2.length < string1.length) {
         string2.unshift(0);
@@ -16,6 +16,7 @@ function stringPlus(_string) {
     let result = [];
     let carry = 0;
     
+    //Make the sum
     for (let i = string1.length - 1; i >= 0; i--) {
         let sum = string1[i] + string2[i] + carry;
         if (sum > 9) {
