@@ -16,7 +16,7 @@ function stringPlus(_string) {
     let result = [];
     let carry = 0;
     
-    //Make the sum
+    //make the sum
     for (let i = string1.length - 1; i >= 0; i--) {
         let sum = string1[i] + string2[i] + carry;
         if (sum > 9) {
