@@ -15,8 +15,7 @@ function stringPlus(_string) {
     // make the sum digit by digit taking in count the carry
     let result = [];
     let carry = 0;
-    
-    //make the sum
+
     for (let i = string1.length - 1; i >= 0; i--) {
         let sum = string1[i] + string2[i] + carry;
         if (sum > 9) {
